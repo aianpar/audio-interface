@@ -1,5 +1,5 @@
 body{
-    background-image: url('/img/1.gif');
+    background-image: url("../img/1.gif");
     font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif; 
 }
 .container{

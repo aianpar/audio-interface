@@ -1,9 +1,9 @@
 //My playlist😎
 let playlist = [
-    {src:'/audio/1.mp3', name:'Trance - 009 Sound System Dreamscape'},
-    {src:'/audio/2.mp3', name:'Tay Zonday - Chocolate Rain'},
-    {src:'/audio/3.mp3', name:'Motivational Uplifting Cinematic Background Music | Royalty Free'},
-    {src:'/audio/4.mp3', name:'Adventures – A Himitsu (No Copyright Music)'}
+    {src:'./audio/1.mp3', name:'Trance - 009 Sound System Dreamscape'},
+    {src:'./audio/2.mp3', name:'Tay Zonday - Chocolate Rain'},
+    {src:'./audio/3.mp3', name:'Motivational Uplifting Cinematic Background Music | Royalty Free'},
+    {src:'./audio/4.mp3', name:'Adventures – A Himitsu (No Copyright Music)'}
 ]
 
 //start variables
@@ -46,11 +46,11 @@ let pressPlay = function() {
     if (isPlaying){
         audio.pause()
         isPlaying = false
-        play.src=`/img_control/play.png` 
+        play.src=`./img_control/play.png` 
     } else {
         audio.play()
         isPlaying = true
-        play.src = `/img_control/pause.png`
+        play.src = `./img_control/pause.png`
     }
 }
 
